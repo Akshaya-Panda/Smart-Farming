@@ -9,12 +9,11 @@
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="./static/css/style.css">
   
 </head>
 
 <body>
-  <img src="Amazon.jpg" alt="">
  <div class="login">
   
 	<h1>Predict Crop Analysis</h1>
@@ -32,9 +31,10 @@
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-
-   <br>
-   <br>
+    <br>
+    <br>
+    <br>
+    <br>
    {{ prediction_text }}
 
  </div>
